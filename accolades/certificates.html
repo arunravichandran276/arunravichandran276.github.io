@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ARUN's Certifications</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/cert.jpg" rel="icon">
+  <link href="../assets/img/cert.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <style>
+    #certificates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#certificates img {
+    max-width: 70%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+#certificates img:hover {
+    transform: scale(1.05);
+}
+  </style>
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+            <section id="certificates">
+                <!-- Images will be loaded here -->
+            </section>
+          
+      
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const certificatesContainer = document.getElementById('certificates');
+
+    // Array of image file names in the 'cert' folder
+    const images = [
+        'Certificate_1.jpg',
+        'Certificate_2.jpg',
+        'Certificate_3.jpg',
+        'Certificate_4.jpg',
+        'Certificate_5.jpg',
+        'Certificate_6.png',
+        'Certificate_7.jpg',
+        'Certificate_8.jpg',
+        'Certificate_9.jpg',
+        'Certificate_10.jpg',
+        'Certificate_11.jpg',
+        'Certificate_12.jpg',
+        'Certificate_13.jpg',
+        'Certificate_14.jpg',
+        'Certificate_15.jpg',
+        'Certificate_16.jpg',
+        'Certificate_17.jpg',
+        'Certificate_18.jpg',
+        'Certificate_19.jpg',
+        'Certificate_20.jpg',
+        'Certificate_21.jpg',
+        'Certificate_22.jpg',
+        'Certificate_23.jpg',
+        'Certificate_24.jpg',
+        'Certificate_25.jpg',
+        'Certificate_26.jpg',
+        'Certificate_27.jpeg',
+        'Certificate_28.jpg',
+        'Certificate_29.jpg',
+        'Certificate_30.jpg',
+        'Certificate_31.jpg',
+        'Certificate_32.jpg',
+        'Certificate_33.jpg',
+        'Certificate_34.jpg',
+        'Certificate_35.jpg',
+        'Certificate_36.jpg',
+        'Certificate_37.jpg',
+        'Certificate_38.jpg',
+        'Certificate_39.png',
+        'Certificate_40.jpg',
+        'Certificate_41.jpg',
+        'Certificate_42.jpg',
+        'Certificate_43.jpg',
+        'Certificate_44.png',
+        'Certificate_45.png',
+        'Certificate_46.png',
+        'Certificate_47.jpg',
+        'Certificate_48.jpg',
+        'Certificate_49.jpg'
+        // Add all your certificate image filenames here
+    ];
+
+    images.forEach(image => {
+        const imgElement = document.createElement('img');
+        imgElement.src = `../assets/img/cert/${image}`;
+        imgElement.alt = 'Certificate';
+        certificatesContainer.appendChild(imgElement);
+    });
+});
+</script>
+</body>
+
+</html>
